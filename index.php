@@ -4,13 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portifolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{ 
+            background-image: url('imagens/logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        p { 
+            border: 1px solid red;
+        }
+
+        h1 { 
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <div class="interface">
        <header class="cabecalho">
            <nav class="menu">
               <div class="logo">
-                 <img src="imagens/logo.png" alt="LOGO">
+                 <img src="imagens/logo.png" alt="LOGO" width="150">
 
               </div>
               <ul>
