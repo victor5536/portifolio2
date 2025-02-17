@@ -6,6 +6,11 @@
     <title>portifolio</title>
 
     <style>
+
+        :root {
+            font-size: 16px;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -13,25 +18,45 @@
         }
 
         body{ 
-            background-image: url('imagens/logo.png');
+            /* background-image: url('imagens/logo.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: fixed; */
 
+            border: 10px solid red;
+            width: 70vw;
+            height: 100vh
         }
 
         p { 
             border: 1px solid red;
+            font-size: 1rem;
         }
 
         h1 { 
             background-color: yellow;
         }
+
+        h1:hover {
+            background-color: red;
+            display: block;
+        }
+        
+        .logo {
+            position: absolute;
+            bottom: calc(100vh/2);
+            right: 0;
+            overflow-x: hidden;
+        }
+
+        #interface {
+
+        }
     </style>
 </head>
 <body>
-    <div class="interface">
+    <div id="interface">
        <header class="cabecalho">
            <nav class="menu">
               <div class="logo">
