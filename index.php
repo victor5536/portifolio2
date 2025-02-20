@@ -4,62 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portifolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
 
-    <style>
-
-        :root {
-            font-size: 16px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body{ 
-            /* background-image: url('imagens/logo.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed; */
-
-            border: 10px solid red;
-            width: 70vw;
-            height: 100vh
-        }
-
-        p { 
-            border: 1px solid red;
-            font-size: 1rem;
-        }
-
-        h1 { 
-            background-color: yellow;
-        }
-
-        h1:hover {
-            background-color: red;
-            display: block;
-        }
-        
-        .logo {
-            position: absolute;
-            bottom: calc(100vh/2);
-            right: 0;
-            overflow-x: hidden;
-        }
-
-        #interface {
-
-        }
-    </style>
+    
 </head>
 <body>
     <div id="interface">
+
        <header class="cabecalho">
+
            <nav class="menu">
+
               <div class="logo">
+
                  <img src="imagens/logo.png" alt="LOGO" width="150">
 
               </div>
@@ -72,7 +29,9 @@
                 <li>contato</li>
 
               </ul>
+
            </nav>
+
            <div class="titles">
              <h1 class="tituo">entregando servicos de qualidade</h1>
              <h1 class="subtitulo">solucoes de ti</h1>
