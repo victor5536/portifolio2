@@ -17,16 +17,16 @@
 
               <div class="logo">
 
-                 <img src="imagens/logo.png" alt="LOGO" width="150">
+                 <img src="imagens/logo.png" alt="LOGO" >
 
               </div>
               <ul>
-                <li>home</li>
-                <li>servicos</li>
-                <li>produtos</li>
-                <li>portifolio</li>
-                <li>sobre</li>
-                <li>contato</li>
+                <li><a href="#"></a>home</li>
+                <li><a href="#"></a>servicos</li>
+                <li><a href="#"></a>produtos</li>
+                <li><a href="#"></a>portifolio</li>
+                <li><a href="#"></a>sobre</li>
+                <li><a href="#"></a>contato</li>
 
               </ul>
 
