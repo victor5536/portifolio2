@@ -21,22 +21,23 @@
 
               </div>
               <ul>
-                <li><a href="#"></a>home</li>
-                <li><a href="#"></a>servicos</li>
-                <li><a href="#"></a>produtos</li>
-                <li><a href="#"></a>portifolio</li>
-                <li><a href="#"></a>sobre</li>
-                <li><a href="#"></a>contato</li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">servicos</a></li>
+                <li><a href="#">produtos</a></li>
+                <li><a href="#">portifolio</a></li>
+                <li><a href="#">sobre</a></li>
+                <li><a href="#">contato</a></li>
 
               </ul>
 
            </nav>
 
            <div class="titles">
-             <h1 class="tituo">entregando servicos de qualidade</h1>
-             <h1 class="subtitulo">solucoes de ti</h1>
-
-             <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab rerum, quas laudantium voluptatum nemo!</p>
+             <div class="container-titles">
+                <h1 class="tituo">entregando servicos de qualidade</h1>
+                <h1 class="subtitulo">solucoes de ti</h1>
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab rerum, quas laudantium voluptatum nemo!</p>
+             </div>
           </div>
           <div class="social icons">
                 <a href="#">twitter</a>
