@@ -3,63 +3,52 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portifolio</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portifólio</title>
 
-    
+    <link rel="stylesheet" href="tools/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+
     <div id="interface">
 
-       <header class="cabecalho">
+        <header class="cabecalho">
 
-           <nav class="menu">
+            <nav class="menu">
 
-              <div class="logo">
+                <div class="logo">
+                    <img src="imagens/logo.png" alt="LOGO" />
+                </div>
 
-                 <img src="imagens/logo.png" alt="LOGO" >
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Portifólio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
 
-              </div>
-              <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">servicos</a></li>
-                <li><a href="#">produtos</a></li>
-                <li><a href="#">portifolio</a></li>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">contato</a></li>
+            </nav>
 
-              </ul>
+            <div class="titles">
+                <div class="container-titles">
+                    <h1 class="titulo">Entregando Serviços de Qualidade</h1>
+                    <h1 class="subtitulo">Soluções de TI</h1>
+                    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa, quis nisi blanditiis maiores aspernatur.</p>
+                </div>
 
-           </nav>
+                <div class="socialIcons">
+                    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
 
-           <div class="titles">
-             <div class="container-titles">
-                <h1 class="tituo">entregando servicos de qualidade</h1>
-                <h1 class="subtitulo">solucoes de ti</h1>
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab rerum, quas laudantium voluptatum nemo!</p>
-             </div>
-          </div>
-          <div class="social icons">
-                <a href="#">twitter</a>
-                <a href="#">facebook</a>
-                <a href="#">linkedin</a>
-                <a href="#">instagram</a>
-          </div>
-       </header>
-  </div>
+        </header>
+
+    </div>
+    
 </body>
 </html>
-
-<!--
-    TAGS HTMLS
-
-    Div - Gera uma divisao de pagina. (Tag generica)
-    Header - Cria um cabecalho na pagina;
-    Nav - Gera um menu de navegacao;
-    Img - Insere uma imagem na pagina (src = caminho da imagem, alt = nome alternativo);
-    Ul - cria uma lista numerada;
-    Li - insere um elemento em uma lista (List item);
-    h1 - -> h6 - determina um titulo na pagina;
-    p - determina um paragrafo na pagina;
-    a - anexa um link para outra pagina. (href = link de referencia do destino);
--->
