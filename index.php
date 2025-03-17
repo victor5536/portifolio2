@@ -86,6 +86,18 @@
 
             <section class="portifolio">
 
+            <h3 class="title-portifolio">nosso portifolio</h3>
+            <h3 class="sub-title">Lorem ipsum dolor sit amet.</h3>
+
+            <div class="container-imagens">
+                <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');"></a>
+                <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');"></a>
+                <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');"></a>
+                <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');"></a>
+                <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');"></a>
+                <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');"></a>
+            </div>
+
                 
 
             </section>
