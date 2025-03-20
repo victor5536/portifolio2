@@ -86,21 +86,36 @@
 
             <section class="portifolio">
 
-            <h3 class="title-portifolio">nosso portifolio</h3>
-            <h3 class="sub-title">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="title-portifolio">nosso portifolio</h3>
+                <h3 class="sub-title">Lorem ipsum dolor sit amet.</h3>
 
-            <div class="container-imagens">
-                <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');"></a>
-                <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');"></a>
-                <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');"></a>
-                <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');"></a>
-                <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');"></a>
-                <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');"></a>
-            </div>
+                <div class="container-imagens">
+                    <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');"></a>
+                </div>
+
+            </section>
 
                 
 
+            <section class="banner">
+
+                <hgroup class="container-texto">
+
+                    <h4 class="title-banner">Saiba mais sobre nossos Projetos</h4>
+
+                    <p class="txt-banner"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum officiis earum ipsam cum. Voluptas dolorem consequatur dolorum aspernatur nihil distinctio laboriosam voluptate iusto, aliquid voluptatibus?
+
+                    <button class="btn-banner">Saiba mais</button>
+
+                </hgroup>
+
             </section>
+
 
             <section class="sobre">
 
