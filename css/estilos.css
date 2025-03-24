@@ -244,6 +244,7 @@
     background-size: 120%;
 }
 
+
 #interface #corpo .banner {
     display: block;
     width: 100%;
@@ -265,7 +266,7 @@
     display: block;
     width: 60%;
     margin: 3rem auto;
-    font-size: 2rem ;
+    font-size: 2rem;
     font-weight: normal;
     font-family: Roboto;
 }
@@ -277,11 +278,15 @@
     line-height: 1.5;
 }
 
-#interface #corpo .banner .container-texto  .btn-banner {
-    display: block;
+#interface #corpo .banner .container-texto .btn-banner {
     background-color: var(--azul-padrao);
     color: var(--branco-padrao);
-    padding: 1rem 1.5rem;
+    padding: 1rem 3rem;
     margin: 5rem auto;
     border-radius: 2rem;
+    text-decoration: none;
+}
+
+#interface #corpo .banner .container-texto .btn-banner:hover {
+    background-color: #2b5995;
 }

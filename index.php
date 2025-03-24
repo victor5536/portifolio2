@@ -86,21 +86,31 @@
 
             <section class="portifolio">
 
-                <h3 class="title-portifolio">nosso portifolio</h3>
-                <h3 class="sub-title">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="title-portifolio">Nosso Portifólio</h3>
+                <p class="sub-title">Lorem ipsum dolor sit amet.</p>
 
                 <div class="container-imagens">
-                    <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');"></a>
-                    <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');"></a>
-                    <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');"></a>
-                    <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');"></a>
-                    <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');"></a>
-                    <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');"></a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');">
+
+                    </a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');">
+
+                    </a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');">
+
+                    </a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');">
+
+                    </a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');">
+
+                    </a>
+                    <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');">
+
+                    </a>
                 </div>
 
             </section>
-
-                
 
             <section class="banner">
 
@@ -108,18 +118,62 @@
 
                     <h4 class="title-banner">Saiba mais sobre nossos Projetos</h4>
 
-                    <p class="txt-banner"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum officiis earum ipsam cum. Voluptas dolorem consequatur dolorum aspernatur nihil distinctio laboriosam voluptate iusto, aliquid voluptatibus?
+                    <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod suscipit, accusamus voluptatem nostrum rerum aliquid fugit ab temporibus vero, corporis autem, dicta dolor! Deleniti, repellendus!</p>
 
-                    <button class="btn-banner">Saiba mais</button>
+                    <a href="#" class="btn-banner">Saiba mais</a>
 
                 </hgroup>
 
-            </section>
 
+
+            </section>
 
             <section class="sobre">
 
                 
+
+            </section>
+
+            <section class="contato">
+
+            <h3 class="title-portifolio">Fale Conosco</h3>
+            <p class="sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+            <div class="container-contato">
+
+               <aside class="dados-contato">
+                    <h4 class="title-aside"></h4>
+                    <p class="txt-aside">Rua das Margaridas, S/Nº - Centro - Manhuaçu/MG</p>
+
+                    <h4 class="title-aside">Telefone</h4>
+                    <p class="txt-aside">33 3331-3333</p>
+                    <p class="txt-aside">33 9 8400-9999</p>
+
+                    <h4 class="title-aside">E-mail</h4>
+                    <p class="txt-aside">contato@meusite.com.br</p>
+                    <p class="txt-aside">faleconosco@meusite.com.br</p>
+                </aside>
+
+                <form action="" method="post">
+
+                    <input type="text" name="nome" id="nome" placeholder="nome*" required />
+                    <input type="email" name="email" id="email" placeholder="email" required />
+                    <input type="text" name="assunto" id="assunto" placeholder="assunto" />
+                    <textarea name="mensagenm" id="mensagem" placeholder="mensagem" required></textarea>
+
+                    <input type="submit" value="Enviar mensagem">
+
+                </form>
+
+
+            </div>
+             
+            <form action="" method="post">
+
+
+
+
+            </form>
 
             </section>
         </main>
