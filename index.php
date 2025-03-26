@@ -136,47 +136,107 @@
 
             <section class="contato">
 
-            <h3 class="title-portifolio">Fale Conosco</h3>
-            <p class="sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <h3 class="title-contato">Fale conosco</h3>
+                <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 
-            <div class="container-contato">
+                <div class="container-contato">
 
-               <aside class="dados-contato">
-                    <h4 class="title-aside"></h4>
-                    <p class="txt-aside">Rua das Margaridas, S/Nº - Centro - Manhuaçu/MG</p>
+                    <aside class="dados-contato">
+                        <h4 class="title-aside">Endereço</h4>
+                        <p class="txt-aside">Rua das Margaridas, S/Nº <br> Centro Manhuaçu/MG</p>
 
-                    <h4 class="title-aside">Telefone</h4>
-                    <p class="txt-aside">33 3331-3333</p>
-                    <p class="txt-aside">33 9 8400-9999</p>
+                        <h4 class="title-aside">Telefone</h4>
+                        <p class="txt-aside">33 3331-3333</p>
+                        <p class="txt-aside">33 9 8400-9999</p>
 
-                    <h4 class="title-aside">E-mail</h4>
-                    <p class="txt-aside">contato@meusite.com.br</p>
-                    <p class="txt-aside">faleconosco@meusite.com.br</p>
-                </aside>
+                        <h4 class="title-aside">E-Mail</h4>
+                        <p class="txt-aside">contato@meusite.com.br</p>
+                        <p class="txt-aside">faleconosco@meusite.com.br</p>
+                    </aside>
 
-                <form action="" method="post">
+                    <form action="" method="post">
 
-                    <input type="text" name="nome" id="nome" placeholder="nome*" required />
-                    <input type="email" name="email" id="email" placeholder="email" required />
-                    <input type="text" name="assunto" id="assunto" placeholder="assunto" />
-                    <textarea name="mensagenm" id="mensagem" placeholder="mensagem" required></textarea>
+                        <div class="line-form">
+                            <input type="text" name="nome" id="nome" placeholder="Nome*" required />
+                            <input type="email" name="email" id="email" placeholder="E-Mail" required />
+                        </div>
 
-                    <input type="submit" value="Enviar mensagem">
+                        <div class="line-form">
+                            <input type="text" name="assunto" id="assunto" placeholder="Assunto" />
+                        </div>
+                        
+                        <div class="line-form">
+                            <textarea name="mensagem" id="mensagem" rows="7" placeholder="Escreva Sua Mensagem*" required></textarea>
+                        </div>
+                        
+                        <button type="submit">Enviar mensagem</button>
 
-                </form>
+                    </form>
 
-
-            </div>
-             
-            <form action="" method="post">
-
-
-
-
-            </form>
+                </div>
 
             </section>
+            
         </main>
+
+        <footer id="rodape">
+
+            <div class="container-rodape">
+
+                <section class="sobre">
+
+                    <img src="imagens/logo.png" alt="logo">
+
+                    <p class="txt-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci expedita repellendus voluptatum accusamus nesciunt natus recusandae veritatis ipsum, delectus fugit quo explicabo eius quod.</p>
+
+                    <h4 class="title-sobre">Siga-nos</h4>
+                    
+                    <div class="social-icons">
+                        <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </section>
+
+                <section class="serviços">
+
+                <h4 class="title-serviços">Serviços</h4>
+
+                <ul>
+                    <li><a href="#">Desenvolvimento Web</a></li>
+                    <li><a href="#">WEB hosting</a></li>
+                    <li><a href="#">Midias Sociais</a></li>
+                    <li><a href="#">Aplicações SEO</a></li>
+                    <li><a href="#">Computação em Nuvem</a></li>
+                    <li><a href="#">Segurança de Dados</a></li>
+                <ul>
+
+                </section>
+
+                <section class="contato">
+
+                    <h4 class="title-contato">contatos</h4>
+
+                    <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                    <p class="txt-contatos">33 9 8400-9999</p>
+                    <p class="txt-contatos">contato@meusite.com.br</p>
+
+                    <h4 class="title-contato">newsletter</h4>
+
+                    <form acrion="" method="get">
+                        <input type="email" name="news-email" id="news-email" placeholder="e-mail"/>
+                        <button type="submit"><i class="fa-brands fa-telegram"></i></button>
+                    </form>
+
+                </section>
+
+            </div>
+
+            <p class="txt-creditos">João Victor Nunes &copy; 2025</p>
+
+        </footer>
 
     </div>
     
