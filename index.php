@@ -181,60 +181,66 @@
 
         <footer id="rodape">
 
-            <div class="container-rodape">
+            <div class="sombreamento">
 
-                <section class="sobre">
+                <div class="container-rodape">
 
-                    <img src="imagens/logo.png" alt="logo">
+                    <section class="item-rodape sobre">
 
-                    <p class="txt-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci expedita repellendus voluptatum accusamus nesciunt natus recusandae veritatis ipsum, delectus fugit quo explicabo eius quod.</p>
+                        <img src="imagens/logo.png" alt="Logo">
 
-                    <h4 class="title-sobre">Siga-nos</h4>
-                    
-                    <div class="social-icons">
-                        <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
+                        <p class="txt-sobre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatibus provident ullam architecto rem, officiis veniam beatae quisquam odit odio</p>
 
-                </section>
+                        <h4 class="title-sobre">Siga-nos</h4>
 
-                <section class="serviços">
+                        <div class="social-icons">                  
+                            <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
 
-                <h4 class="title-serviços">Serviços</h4>
+                    </section>
 
-                <ul>
-                    <li><a href="#">Desenvolvimento Web</a></li>
-                    <li><a href="#">WEB hosting</a></li>
-                    <li><a href="#">Midias Sociais</a></li>
-                    <li><a href="#">Aplicações SEO</a></li>
-                    <li><a href="#">Computação em Nuvem</a></li>
-                    <li><a href="#">Segurança de Dados</a></li>
-                <ul>
+                    <section class="item-rodape servicos">
 
-                </section>
+                        <h4 class="title-servicos">Serviços</h4>
 
-                <section class="contato">
+                        <ul>
+                            <li><a href="#">Desenvolvimento WEB</a></li>
+                            <li><a href="#">WEB Hosting</a></li>
+                            <li><a href="#">Mídias Sociais</a></li>
+                            <li><a href="#">Aplicações SEO</a></li>
+                            <li><a href="#">Computação em Nuvem</a></li>
+                            <li><a href="#">Segurança de Dados</a></li>
+                        </ul>
 
-                    <h4 class="title-contato">contatos</h4>
+                    </section>
 
-                    <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
-                    <p class="txt-contatos">33 9 8400-9999</p>
-                    <p class="txt-contatos">contato@meusite.com.br</p>
+                    <section class="item-rodape contato">
 
-                    <h4 class="title-contato">newsletter</h4>
+                        <h4 class="title-contato">Contatos</h4>  
 
-                    <form acrion="" method="get">
-                        <input type="email" name="news-email" id="news-email" placeholder="e-mail"/>
-                        <button type="submit"><i class="fa-brands fa-telegram"></i></button>
-                    </form>
+                        <div class="container-contato">
+                            <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                            <p class="txt-contatos">33 9 8400-9999</p>
+                            <p class="txt-contatos">contato@meusite.com.br</p>
+                        </div>
 
-                </section>
+                        <h4 class="title-contato">Newsletter</h4>
+
+                        <form action="" method="get">
+                            <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
+                            <button type="submit"><i class="fab fa-telegram"></i></button>
+                        </form>
+
+                    </section>
+
+                </div>
+
+                <p class="txt-creditos">João Victor Nunes de Resende &copy; 2025</p>
 
             </div>
-
-            <p class="txt-creditos">João Victor Nunes &copy; 2025</p>
 
         </footer>
 
